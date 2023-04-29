@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gossip-glomers"
+version = "0.1.0"
+description = ""
+authors = ["Philipp Albrecht"]
+license = "GPLv3"
+readme = "README.md"
+packages = [{include = "gossip_glomers"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
